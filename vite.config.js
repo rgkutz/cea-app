@@ -5,5 +5,10 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000
+  },
+  // Esto es importante para Vercel
+  build: {
+    outDir: 'dist',
+    sourcemap: true
   }
 })
