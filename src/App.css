@@ -1,0 +1,252 @@
+﻿.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.header h1 {
+  color: #1F2937;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.header p {
+  color: #6B7280;
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.assessment-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.assessment-card h2 {
+  color: #1F2937;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-bottom: 2px solid #E5E7EB;
+  padding-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #6B7280;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+/* ESTILOS PARA FORMULARIOS */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  color: #374151;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.form-input, .form-select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid #D1D5DB;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus, .form-select:focus {
+  outline: none;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.form-input::placeholder {
+  color: #9CA3AF;
+}
+
+/* ESTILOS PARA SKILL CARDS */
+.skill-card {
+  background: #F9FAFB;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border: 2px solid #E5E7EB;
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  border-color: #3B82F6;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card h3 {
+  color: #1F2937;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.skill-card p {
+  color: #6B7280;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.skill-options {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.skill-btn {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+  min-width: 100px;
+  flex: 1;
+}
+
+.skill-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.actions {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.save-btn {
+  background: #10B981;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);
+  width: 100%;
+}
+
+.save-btn:hover {
+  background: #059669;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(16, 185, 129, 0.4);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .header {
+    padding: 1.5rem 1rem;
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .main {
+    padding: 0.5rem;
+  }
+  
+  .assessment-card {
+    padding: 1rem;
+    border-radius: 12px;
+  }
+  
+  .assessment-card h2 {
+    font-size: 1.3rem;
+  }
+  
+  .skill-options {
+    flex-direction: column;
+  }
+  
+  .skill-btn {
+    width: 100%;
+  }
+  
+  .form-input, .form-select {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.3rem;
+  }
+  
+  .header p {
+    font-size: 0.9rem;
+  }
+  
+  .skill-card {
+    padding: 1rem;
+  }
+  
+  .skill-card h3 {
+    font-size: 1rem;
+  }
+}
+.message {
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.message.success {
+  background: #D1FAE5;
+  color: #065F46;
+  border: 1px solid #10B981;
+}
+
+.message.error {
+  background: #FEE2E2;
+  color: #991B1B;
+  border: 1px solid #EF4444;
+}
+
+.save-btn:disabled {
+  background: #9CA3AF;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.save-btn:disabled:hover {
+  background: #9CA3AF;
+  transform: none;
+  box-shadow: none;
+}
