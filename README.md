@@ -1,28 +1,9 @@
-# CEA App - Autism Spectrum Assessment Tool
+## 👨‍💻 Desarrollador
 
-Una aplicación web para evaluaciones del Trastorno del Espectro Autista (TEA) construida con React y Vite.
+**Gabriel Kutz**  
+*Ingeniero en Sistemas - Especialista en Aplicaciones de Salud Digital*  
+📧 **Correo Institucional:** kutzrenegabirel_pos@ucp.edu.ar  
+📍 **Ubicación:** Provincia de Misiones, Argentina  
+💼 **Profesión:** Ingeniero en Sistemas  
 
-## 📋 Descripción
-
-CEA App es una herramienta digital diseñada para facilitar las evaluaciones y seguimientos relacionados con el Trastorno del Espectro Autista. La aplicación permite a profesionales de la salud recopilar, gestionar y analizar datos de evaluaciones de manera eficiente.
-
-## ✨ Características
-
-- **Interfaz moderna y accesible** construida con React
-- **Almacenamiento en la nube** usando jsonbin.io
-- **Despliegue optimizado** con Vercel
-- **Configuración flexible** para diferentes entornos
-- **Fácil integración** con servicios de datos
-
-## 🚀 Instalación y Configuración
-
-### Prerrequisitos
-- Node.js (versión 16 o superior)
-- npm o yarn
-
-### Instalación
-
-1. Clona el repositorio:
-```bash
-git clone https://github.com/rgkutz/cea-app.git
-cd cea-app
+---
